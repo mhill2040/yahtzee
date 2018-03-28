@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { Fragment } from 'react'
 import ScoreSection from './ScoreSection';
 
 const ScoreCard = () => (

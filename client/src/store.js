@@ -1,13 +1,12 @@
-import {
-  createStore,
-  compose,
-  applyMiddleware
+import { 
+  createStore, 
+  compose, 
+  applyMiddleware 
 } from 'redux';
 import apiMiddleware from 'redux-devise-axios';
 import axios from 'axios';
 import thunk from 'redux-thunk';
 import rootReducer from './reducers/index';
-
 
 const options = { axios };
 
@@ -27,3 +26,13 @@ if (module.hot) {
 }
 
 export default store;
+
+
+
+
+
+
+
+
+
+
